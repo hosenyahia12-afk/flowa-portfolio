@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">FLOWA DXF-derived gym reprogramming plan</title>
+  <desc id="desc">A clarified architectural plan diagram of a long gym shell, with seven training zones and a continuous purple movement trajectory.</desc>
+  <defs>
+    <style>
+      .ink{fill:none;stroke:#1c1c20;stroke-linecap:round;stroke-linejoin:round}.fine{fill:none;stroke:#63636b;stroke-width:1.2}.edge{fill:none;stroke:#19191e;stroke-width:4}.dim{fill:none;stroke:#807d88;stroke-width:1}.dash{fill:none;stroke:#7665ff;stroke-width:2;stroke-dasharray:8 8}.flow{fill:none;stroke:#7665ff;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}.node{fill:#f6f4ff;stroke:#7665ff;stroke-width:4}.zone-label{font:700 13px Arial,sans-serif;letter-spacing:.08em;fill:#25242a}.small{font:500 10px Arial,sans-serif;letter-spacing:.12em;fill:#5a5861}.micro{font:500 9px Arial,sans-serif;letter-spacing:.08em;fill:#77747e}
+    </style>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fffefb"/><stop offset="1" stop-color="#f4f2ef"/></linearGradient>
+  </defs>
+  <rect width="1600" height="620" fill="url(#paper)"/>
+  <text x="82" y="65" class="zone-label" font-size="24">FLOWA / DXF-DERIVED GYM PLAN</text>
+  <text x="82" y="89" class="small">EXISTING LONG-FORM SHELL + PROPOSED MOVEMENT REPROGRAMMING</text>
+  <text x="1510" y="65" class="small" text-anchor="end">01 / PLAN CLARIFICATION</text>
+
+  <!-- dimension reference: 48.75 m x 9.82 m -->
+  <line x1="105" y1="135" x2="1485" y2="135" class="dim"/>
+  <line x1="105" y1="127" x2="105" y2="145" class="dim"/><line x1="1485" y1="127" x2="1485" y2="145" class="dim"/>
+  <text x="795" y="127" class="small" text-anchor="middle">48.75 M / EXISTING SHELL LENGTH</text>
+  <line x1="76" y1="170" x2="76" y2="448" class="dim"/><line x1="68" y1="170" x2="84" y2="170" class="dim"/><line x1="68" y1="448" x2="84" y2="448" class="dim"/>
+  <text x="61" y="316" class="small" text-anchor="middle" transform="rotate(-90 61 316)">9.82 M</text>
+
+  <!-- existing shell, simplified from DXF -->
+  <rect x="105" y="170" width="1380" height="278" rx="2" fill="#fff" stroke="#18181d" stroke-width="5"/>
+  <path d="M105 218H1485M105 402H1485" class="fine"/>
+  <path d="M120 170v48m55-48v48m1140-48v48m55-48v48M120 402v46m55-46v46m1140-46v46m55-46v46" class="fine"/>
+  <path d="M135 418h55m-55 0v-34m55 34v-34M1398 418h55m-55 0v-34m55 34v-34" class="ink" stroke-width="2"/>
+  <text x="130" y="468" class="micro">ENTRY / EXISTING DOOR</text>
+  <text x="1380" y="468" class="micro">SOCIAL EXIT</text>
+
+  <!-- programme zones -->
+  <path d="M118 232 Q118 218 138 218 H257 Q282 218 282 244 V376 Q282 402 257 402 H138 Q118 402 118 382Z" fill="#eee8ff" stroke="#c9bdf8" stroke-width="2"/>
+  <path d="M292 232 Q292 218 314 218 H500 Q524 218 524 242 V378 Q524 402 500 402 H314 Q292 402 292 378Z" fill="#d8ead3" stroke="#a5c99c" stroke-width="2"/>
+  <path d="M535 232 Q535 218 557 218 H760 Q784 218 784 244 V376 Q784 402 760 402 H557 Q535 402 535 378Z" fill="#ead6c0" stroke="#d2af86" stroke-width="2"/>
+  <path d="M795 232 Q795 218 819 218 H1004 Q1028 218 1028 244 V376 Q1028 402 1004 402 H819 Q795 402 795 378Z" fill="#c9dced" stroke="#9cbdda" stroke-width="2"/>
+  <path d="M1039 232 Q1039 218 1061 218 H1162 Q1190 218 1190 245 V375 Q1190 402 1162 402 H1061 Q1039 402 1039 378Z" fill="#ded1f0" stroke="#b7a0d4" stroke-width="2"/>
+  <path d="M1201 232 Q1201 218 1223 218 H1334 Q1357 218 1357 244 V376 Q1357 402 1334 402 H1223 Q1201 402 1201 378Z" fill="#dce7cf" stroke="#aac38f" stroke-width="2"/>
+  <path d="M1367 232 Q1367 218 1389 218 H1452 Q1472 218 1472 244 V376 Q1472 402 1452 402 H1389 Q1367 402 1367 378Z" fill="#f1e6d4" stroke="#d4bd97" stroke-width="2"/>
+
+  <!-- existing-shell partitions and schematic equipment -->
+  <path d="M282 218v184M524 218v184M784 218v184M1028 218v184M1190 218v184M1357 218v184" class="fine"/>
+  <g class="ink" stroke-width="2">
+    <circle cx="192" cy="310" r="38"/><path d="M154 310h76M192 272v76"/>
+    <rect x="326" y="260" width="38" height="100" rx="9"/><rect x="383" y="260" width="38" height="100" rx="9"/><rect x="440" y="260" width="38" height="100" rx="9"/>
+    <rect x="572" y="250" width="70" height="54" rx="6"/><rect x="662" y="250" width="70" height="54" rx="6"/><rect x="599" y="326" width="105" height="42" rx="6"/>
+    <path d="M836 263h145M836 292h145M836 321h145M836 350h145"/>
+    <path d="M1072 250q40 50 0 116q-40-60 0-116m50 0q40 50 0 116q-40-60 0-116"/>
+    <path d="M1235 271q40-33 83 0m-83 84q40 33 83 0"/>
+    <circle cx="1415" cy="310" r="42"/><path d="M1382 310h66M1415 277v66"/>
+  </g>
+
+  <!-- flow and nodes -->
+  <path d="M140 340 C214 410 270 253 355 314 S512 380 602 310 S734 246 836 327 S1000 408 1095 305 S1250 237 1312 319 S1400 365 1454 292" class="flow"/>
+  <path d="M147 342 C218 376 265 274 346 321M607 310 C679 355 729 266 823 324M1100 305 C1190 352 1246 255 1304 322" class="dash"/>
+  <g class="node"><circle cx="192" cy="369" r="10"/><circle cx="405" cy="337" r="10"/><circle cx="674" cy="292" r="10"/><circle cx="924" cy="365" r="10"/><circle cx="1128" cy="288" r="10"/><circle cx="1285" cy="319" r="10"/><circle cx="1422" cy="321" r="10"/></g>
+
+  <!-- labels -->
+  <g text-anchor="middle"><text x="200" y="250" class="zone-label">ACTIVATE</text><text x="200" y="267" class="small">ENTRY NODE</text><text x="408" y="250" class="zone-label">CARDIO FLOW</text><text x="408" y="267" class="small">CONTINUOUS PACE</text><text x="660" y="250" class="zone-label">STRENGTH CORE</text><text x="660" y="267" class="small">POWER FIELD</text><text x="912" y="250" class="zone-label">FUNCTIONAL</text><text x="912" y="267" class="small">FLEXIBLE TRAINING</text><text x="1114" y="250" class="zone-label">CLIMB</text><text x="1114" y="267" class="small">VERTICAL CHALLENGE</text><text x="1279" y="250" class="zone-label">YOGA + RECOVER</text><text x="1279" y="267" class="small">SOFT THRESHOLD</text><text x="1420" y="250" class="zone-label">SOCIAL</text><text x="1420" y="267" class="small">DESTINATION</text></g>
+
+  <g transform="translate(105 530)"><line x1="0" y1="0" x2="66" y2="0" class="flow"/><text x="79" y="4" class="small">PRIMARY MOTION TRAJECTORY</text><line x1="335" y1="0" x2="401" y2="0" class="dash"/><text x="414" y="4" class="small">SECONDARY FLOW</text><circle cx="660" cy="0" r="8" class="node"/><text x="677" y="4" class="small">PROGRAM NODE</text><text x="1380" y="4" class="small" text-anchor="end">DRAWING NOT TO SCALE</text></g>
+</svg>

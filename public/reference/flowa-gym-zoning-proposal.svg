@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48750 9820" role="img" aria-labelledby="title description">
+  <title id="title">FLOWA gym zoning proposal</title>
+  <desc id="description">A 48.75 metre by 9.82 metre long-form fitness plan with seven movement-generated zones.</desc>
+  <rect width="48750" height="9820" fill="#f8f7f1"/>
+  <g stroke="#19171f" stroke-width="160" stroke-linejoin="round">
+    <rect x="120" y="120" width="48510" height="9580" fill="none"/>
+    <path d="M6120 120V9700M14120 120V9700M23120 120V9700M30120 120V9700M35620 120V9700M42120 120V9700" fill="none" opacity=".45"/>
+  </g>
+  <g opacity=".88">
+    <rect x="120" y="120" width="6000" height="9580" fill="#ded7f3"/>
+    <rect x="6120" y="120" width="8000" height="9580" fill="#d6e6ed"/>
+    <rect x="14120" y="120" width="9000" height="9580" fill="#e3d4c4"/>
+    <rect x="23120" y="120" width="7000" height="9580" fill="#d7e7d2"/>
+    <rect x="30120" y="120" width="5500" height="9580" fill="#e0cef0"/>
+    <rect x="35620" y="120" width="6500" height="9580" fill="#e9e0ba"/>
+    <rect x="42120" y="120" width="6510" height="9580" fill="#d7ead9"/>
+  </g>
+  <g fill="none" stroke="#7665ff" stroke-width="260" stroke-linecap="round">
+    <path d="M900 7100 C3400 2400 4800 2600 7200 5300 S11100 7600 15000 4400 S20500 1800 24200 5200 S29200 7800 32100 4100 S35500 1900 38100 4900 S42400 7300 47400 3500"/>
+    <path d="M1000 7600 C3900 5000 5700 5900 7600 6900 S12500 7200 15300 6100" stroke-width="100" opacity=".72"/>
+  </g>
+  <g fill="#17151d" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="3120" y="4200" font-size="650" font-weight="700">ENTER</text><text x="3120" y="5000" font-size="420">ACTIVATE</text>
+    <text x="10120" y="4200" font-size="650" font-weight="700">CARDIO</text><text x="10120" y="5000" font-size="420">FLOW</text>
+    <text x="18620" y="4200" font-size="650" font-weight="700">STRENGTH</text><text x="18620" y="5000" font-size="420">CORE</text>
+    <text x="26620" y="4200" font-size="620" font-weight="700">FUNCTION</text><text x="26620" y="5000" font-size="420">TRAINING</text>
+    <text x="32870" y="4200" font-size="620" font-weight="700">CLIMB</text><text x="32870" y="5000" font-size="420">CHALLENGE</text>
+    <text x="38870" y="4200" font-size="620" font-weight="700">YOGA</text><text x="38870" y="5000" font-size="420">RECOVER</text>
+    <text x="45375" y="4200" font-size="620" font-weight="700">SOCIAL</text><text x="45375" y="5000" font-size="420">CONNECT</text>
+  </g>
+  <g fill="#17151d" font-family="Arial, sans-serif" font-size="360">
+    <text x="500" y="900">FLOWA / GYM ZONING PROPOSAL — 48.75m × 9.82m</text>
+  </g>
+</svg>
